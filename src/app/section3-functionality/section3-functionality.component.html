@@ -1,0 +1,17 @@
+<div class="section" id="Third">
+    <div class="block">
+        <h1>Написати нам</h1>
+        <form (submit)="onSubmit()">      
+            <input name="name" type="text" id="inputName" class="feedback-input" placeholder="Your name" />   
+            <input name="email" type="text" id="inputEmail" class="feedback-input" placeholder="Номер телефону" />
+            <textarea name="text" class="feedback-input" id="inputText" placeholder="Щось цікаве?"></textarea>
+            <input type="submit" value="Відправити"/>
+            <div class="answer {{visibility}}">
+                Дякуємо за звернення.
+            </div>
+            
+        </form>
+        
+    </div>
+    
+</div>
